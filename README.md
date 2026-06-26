@@ -12,8 +12,6 @@
   <a href="https://lthofficial01.github.io"><b>Portfolio</b></a>
   ·
   <a href="https://github.com/lthofficial01?tab=repositories"><b>Projects</b></a>
-  ·
-  <a href="mailto:lthofficial01@gmail.com"><b>Email</b></a>
 </p>
 
 ---
