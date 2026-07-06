@@ -18,14 +18,14 @@
 
 ## Featured Projects
 
-### [Olink Analyzer](https://github.com/lthofficial01/2025-Olink_analyze_tool)
+### [Olink Analyzer](https://github.com/lthofficial01/2025-olink-analyze-tool)
 Client-side Olink NPX analysis tool using React, TypeScript, Pyodide, Web Worker, and Plotly.
 
 - Built a browser-based local analysis workflow for sensitive biomedical data
 - Supports preview, QC, pivot, PCA, volcano plot, missingness QC, ML baseline, and PPI network analysis
 - Focus: biomedical data analysis, client-side Python execution, visualization
 
-### [SAC on Screen Big Data Pipeline](https://github.com/lthofficial01/bigdata-sac-on-screen)
+### [SAC on Screen Big Data Pipeline](https://github.com/lthofficial01/2026-1-bigdata-sac-on-screen-recommendation)
 HDFS, Spark, and Hive pipeline for regional content recommendation analysis.
 
 - Automated raw CSV to Spark preprocessing, Hive analysis, and CSV result export
