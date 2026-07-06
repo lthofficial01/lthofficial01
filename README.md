@@ -1,39 +1,49 @@
-<h3 align="center">Tae Han Lee</h3>
+<h1 align="center">Lee Tae Han</h1>
 
 <p align="center">
-  Data Science · Bioinformatics · Big Data Pipelines
+  Data Science · Bioinformatics · Big Data Engineering
 </p>
 
 <p align="center">
-  Building healthcare data analysis tools and reproducible data pipelines.
+  Building privacy-conscious analysis tools and reproducible data pipelines.
 </p>
 
 <p align="center">
   <a href="https://lthofficial01.github.io"><b>Portfolio</b></a>
   ·
-  <a href="https://github.com/lthofficial01?tab=repositories"><b>Projects</b></a>
+  <a href="https://github.com/lthofficial01?tab=repositories"><b>Repositories</b></a>
 </p>
 
 ---
 
-## Featured Projects
+## Selected Projects
 
-### [Olink Analyzer](https://github.com/lthofficial01/2025-Olink_analyze_tool)
-Client-side Olink NPX analysis tool using React, TypeScript, Pyodide, Web Worker, and Plotly.
+### [Seoul Medical Vulnerability Analysis](https://github.com/lthofficial01/2026-1-seoul-medical-vulnerability)
 
-- Built a browser-based local analysis workflow for sensitive biomedical data
-- Supports preview, QC, pivot, PCA, volcano plot, missingness QC, ML baseline, and PPI network analysis
-- Focus: biomedical data analysis, client-side Python execution, visualization
+Compared medical vulnerability across 25 Seoul districts, then analyzed demand-adjusted supply gaps for five clinical specialties across 44 administrative neighborhoods in the three highest-vulnerability districts.
 
-### [SAC on Screen Big Data Pipeline](https://github.com/lthofficial01/bigdata-sac-on-screen)
-HDFS, Spark, and Hive pipeline for regional content recommendation analysis.
+- **Contribution:** data collection and preprocessing, geospatial mapping, vulnerability and shortage score design, K-means analysis, and visualization
+- **Result:** 24 of 44 neighborhoods were classified as pediatric-shortage type despite every neighborhood having at least one pediatric provider
+- **Stack:** Python, Pandas, scikit-learn, GeoJSON, Folium, Matplotlib
 
-- Automated raw CSV to Spark preprocessing, Hive analysis, and CSV result export
-- Designed a region-level genre demand index using age population and reservation patterns
-- Focus: reproducible big data pipeline, PySpark, HiveQL, data visualization
+### [Olink Analyzer](https://github.com/lthofficial01/2025-olink-analyze-tool)
+
+Client-side analysis tool for Olink NPX proteomics data. The workflow runs in the browser, allowing sensitive data to be explored without uploading raw matrices to an application server.
+
+- **Contribution:** Olink schema handling, sample-by-protein pivot workflow, QC and statistical analysis modules, baseline ML, and interactive visualization
+- **Features:** PCA, differential expression, missingness analysis, protein boxplots, ROC/AUC, and STRING PPI network exploration
+- **Stack:** React, TypeScript, Pyodide, Web Worker, Python, Plotly
+
+### [SAC on Screen Regional Genre Recommendation](https://github.com/lthofficial01/2026-1-bigdata-sac-on-screen-recommendation)
+
+HDFS, Spark, and Hive pipeline that combines performance reservation patterns with regional age structure to calculate regional genre-fit indicators and Top 3 recommendations.
+
+- **Contribution:** demand-index design, PySpark preprocessing, Hive external tables and analysis queries, result export, and visualization
+- **Pipeline:** raw CSV → HDFS → Spark/Parquet → HiveQL → CSV and visual outputs
+- **Stack:** HDFS, PySpark, Hive, HiveQL, Bash, Python, Matplotlib
 
 ---
 
 ## Current Focus
 
-Healthcare / bioinformatics data analysis, machine learning evaluation, and scalable data pipelines.
+Healthcare and bioinformatics data analysis, interpretable machine learning, privacy-conscious analytics, and reproducible big-data workflows.
