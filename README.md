@@ -32,6 +32,15 @@ HDFS, Spark, and Hive pipeline for regional content recommendation analysis.
 - Designed a region-level genre demand index using age population and reservation patterns
 - Focus: reproducible big data pipeline, PySpark, HiveQL, data visualization
 
+### [MeetRank — Group Preference-Aware Venue Recommendation](projects/meetrank.md)
+Team project: an explainable group-based place recommender using K-Skill / eat.pl and BC Card transaction signals.
+
+- **My contribution:** team integration and delivery, cuisine-vote-first ranking, incremental UI refresh, and CI/deployment verification
+- **Engineering outcome:** regression-tested the majority-vote ranking and resolved flickering in the shared-room/recommendation screens; 248 Python tests passed in the PR #30 pipeline
+- **Tech:** Python, SQLite, JavaScript, K-Skill/eat.pl, OpenRouter (optional), Vercel, AWS Lightsail
+- [Project details](projects/meetrank.md) · [Team repository](https://github.com/BDAI9/2026-project-demo) · [Demo](https://jj2ya.vercel.app/)
+
+
 ---
 
 ## Current Focus
