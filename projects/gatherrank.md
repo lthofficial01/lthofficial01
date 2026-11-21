@@ -1,4 +1,4 @@
-# MeetRank — Group Preference-Aware Venue Recommendation
+# GatherRank — Group Preference-Aware Venue Recommendation
 
 > **모임 참여자의 취향 투표와 eat.pl·BC카드 기반 장소 데이터를 결합해, 알레르기 위험과 다수 선호를 반영하는 설명 가능한 장소 추천 서비스를 개발·통합했습니다.**
 
@@ -137,7 +137,7 @@ BDAI9/2026-project-demo/
 
 lthofficial01/lthofficial01/
 └── projects/
-    └── meetrank.md       # 개인 기여·성과 기록 (이 문서)
+    └── gatherrank.md       # 개인 기여·성과 기록 (이 문서)
 ```
 
 ## 10. 실행 및 검증 방법
